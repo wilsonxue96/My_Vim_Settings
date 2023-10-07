@@ -1,0 +1,38 @@
+call plug#begin()
+Plug 'dunstontc/vim-vscode-theme'
+Plug 'vhda/verilog_systemverilog.vim'
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'HonkW93/automatic-verilog'
+Plug 'preservim/nerdtree'
+Plug 'Yggdroot/indentLine'
+Plug 'junegunn/vim-easy-align'
+Plug 'honza/vim-snippets'
+call plug#end()
+
+
+"colorscheme janah
+colorscheme janah
+set guifont=YaHei_Consolas_Hybrid:h14
+
+
+set number
+
+set ts=4
+set shiftwidth=4
+set softtabstop=4
+
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set backspace=2
+set termencoding=utf-8
+set encoding=utf-8
+set mouse=a
+set scrolloff=5
+set foldmethod=indent
+set foldlevel=99
+set cursorline
+set ruler
+set showmatch
+set cindent
+set hlsearch
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termguicolors"开启真彩色
